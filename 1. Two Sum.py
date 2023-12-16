@@ -1,3 +1,7 @@
+# Problem: https://leetcode.com/problems/two-sum/description/
+
+# time complexity: O(n^2)
+# space complexity: O(1)
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         for i in range(len(nums)):
