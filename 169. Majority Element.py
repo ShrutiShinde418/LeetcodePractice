@@ -14,7 +14,7 @@ class Solution:
                 return i
 
     # Approach 2: Using sorting algorithm:
-    # time complexity: O(nlogn)
+    # time complexity: O(n log n)
     # space complexity: O(1)
     def majorityElement1(self, nums: list[int]) -> int:
         nums.sort()
